@@ -26,6 +26,16 @@ The overall framework is shown below:
 We run our model for 3 generations and generate simulations. For every generation we take 6 different boundary conditions and generate results.
 
 #### Generation - 0 
-Boundary  Condition `P(0) = 0 w_z(0) = 1.96`
+Boundary  Condition `P(0) = 0 v_z(0) = 1.96`
 
 <img src="https://user-images.githubusercontent.com/58564764/199504751-48d14282-227d-472a-9cea-023eb326c42a.png" height="300">
+
+Boundary Condition `P(0) = 101325,  v_z(0) = 1.96`
+
+<img src="https://user-images.githubusercontent.com/58564764/199515277-8dba9456-2150-47d8-8467-2375ce8415f9.png" height="300">
+
+Boundary Condition `P(0) = 81060,  v_z(0) = 1.96`
+
+<image src="https://user-images.githubusercontent.com/58564764/199516648-e0b534f2-b1be-4223-b0a6-57473b0e45ec.png" height="300">
+
+Simulations for other three generations are obtained in a similar way.
